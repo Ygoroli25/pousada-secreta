@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.menu {
+  width: 100%;
+  position: fixed;
+  background-color: #ffff;
+  z-index: 1;
+}
+.conteiner {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cont-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.cont-menu .logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3c3d3f;
+}
+
+.text-blue {
+  color: #8298af;
+}
+
+.menu .links-menu a {
+  margin-left: 10px;
+  padding: 10px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #3c3d3f;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("/assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.box-text {
+  margin: 120px 0 60px 0;
+  line-height: 52px;
+}
+
+.box-text h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.box-text p {
+  font-size: 24px;
+}
+
+.quartos-pousada {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quartos-pousada img {
+  width: 100%;
+  height: 300px;
+}
+
+.quartos-pousada div {
+  width: 33%;
+}
+
+.informacoes h3 {
+  margin: 60px 0;
+  font-size: 24px;
+}
+
+.informacoes ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.informacoes li {
+  width: 300px;
+  text-align: start;
+}
+
+.rodape {
+  text-align: center;
+  background-color: #07a58e;
+  color: #ffff;
+}
+
+.rodape p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.links-rodape {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px #418b70 solid;
+}
+
+.links-rodape h4 {
+  font-size: 22px;
+}
+
+.links {
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  font-size: 18px;
+}
+
+.links img {
+  padding-right: 10px;
+}
+
+.links a {
+  color: #ffff;
+}

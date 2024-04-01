@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.menu{
+  width: 100%;
+  position: fixed;
+  background-color: #ffff;
+  z-index: 1;
+}
+.conteiner {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cont-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; 
+}
+
+.cont-menu .logo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #3C3D3F;
+}
+
+.text-blue {
+  color: #8298AF;
+}
+
+.menu .links-menu a {
+  margin-left: 10px;
+  padding: 10px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #3C3D3F;
+}
+
+.banner {
+  width: 100%;
+  height: 800px;
+  background-image: url("/assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-banner {
+  padding: 60px;
+  background-color: #07a58e;
+  border-radius: 4px;
+  color: #ffff;
+  opacity: 0.9;
+  font-size: 32px;
+}
+
+.text-banner h1 {
+  font-size: 62px;
+  padding-bottom: 40px;
+}
+
+.box-text {
+padding: 120px 0 60px 0;
+line-height: 52px;
+}
+
+.box-text h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.box-text p {
+  font-size: 24px;
+}
+
+.quartos-pousada {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quartos-pousada img {
+  width: 100%;
+}
+
+.quartos-pousada div {
+  width: 30%;
+  border-bottom: 3px #07a58e solid;
+}
+
+.quartos-pousada p,.quartos-pousada a {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #3C3D3F;
+  padding: 16px;
+}
+
+.list-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+justify-content: space-between;
+padding-bottom: 80px;
+}
+
+.list-cards img {
+  width: 100px;
+  height: 120px;
+}
+
+.card {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.text-card {
+  text-align: start;
+  width: 380px;
+}
+
+.card h3 {
+  font-size: 26px;
+padding-bottom: 10px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.rodape{
+  text-align: center;
+  background-color: #07a58e;
+  color: #ffff;
+}
+
+.rodape p {
+  font-size:20px;
+  padding: 20px 0;
+}
+
+.links-rodape {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px #418B70 solid ;
+}
+
+.links-rodape h4 {
+  font-size: 22px;
+}
+
+.links {
+  max-width: 220px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  font-size: 18px;
+}
+
+.links img {
+  padding-right: 10px;
+}
+
+.links a {
+  color: #ffff;
+}
